@@ -1,0 +1,22 @@
+{
+  "name": "js-katadni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piperiver97/JS-KataDni.git"
+  },
+  "author": "Felipe Riveros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piperiver97/JS-KataDni/issues"
+  },
+  "homepage": "https://github.com/piperiver97/JS-KataDni#readme",
+  "devDependencies": {
+    "vitest": "^2.0.1"
+  }
+}
