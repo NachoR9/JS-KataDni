@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { DNI } from '../Dni.js';
+import { DNI } from '../js/Dni.js';
 describe('DNI', () => {
     it('debería devolver "T" para el número 0', () => {
         const dni = new DNI(0);
@@ -14,7 +14,7 @@ describe('DNI', () => {
         expect(dni.calcularLetra()).toBe('W');
     });
     it('debería devolver "A" para el número 3', () => {
-        const dni = new DNI(3);q
+        const dni = new DNI(3);
         expect(dni.calcularLetra()).toBe('A');
     });
     it('debería devolver "G" para el número 4', () => {
