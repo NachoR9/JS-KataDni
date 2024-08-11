@@ -9,7 +9,7 @@ export	class DNI {
     }
     calcularLetra (){
         const resto = this.numero % 23;
-        console.log(`Número: ${this.numero}, Resto: ${resto}, Letra: ${letrasDni[resto]}`); //Se comprueba antes que me de resultado//
+        console.log(`Número: ${this.numero}, Resto: ${resto}, Letra: ${letrasDni[resto]}`); 
         return letrasDni[resto];
     }
 }
